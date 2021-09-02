@@ -34,5 +34,5 @@
 
 <h2>Contributor</h2>
 [Sutanu Chakraborty](https://github.com/Sutanu19)   
-[Ishani Samanta](https://github.com/ishanisamanta)   
-[Sutanu Chakraborty](https://github.com/Sutanu19)    
+[Ishani Samanta](https://github.com/ishanisamanta)     
+[Sutanu Chakraborty](https://github.com/Sutanu19)     
