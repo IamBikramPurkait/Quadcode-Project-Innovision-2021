@@ -33,6 +33,7 @@
  <p> We are hoping to extend this feature to every library or book bank and eliminate the need of maintaining manual database. We will soon add more books and advanced features for our user to keep them updated about new books available in the market.</p>
 
 <h2>Contributor</h2>
-[Sutanu Chakraborty](https://github.com/Sutanu19)   
-[Ishani Samanta](https://github.com/ishanisamanta)     
-[Sutanu Chakraborty](https://github.com/Sutanu19)     
+
+[Sutanu Chakraborty](https://github.com/Sutanu19)</br>
+[Ishani Samanta](https://github.com/ishanisamanta)</br>
+[Ruddranil](https://github.com/Ruddranil16)</br>   
