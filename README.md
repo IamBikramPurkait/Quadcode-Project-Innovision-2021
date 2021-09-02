@@ -32,6 +32,48 @@
 <h2>What's next for Library Management System</h2>
  <p> We are hoping to extend this feature to every library or book bank and eliminate the need of maintaining manual database. We will soon add more books and advanced features for our user to keep them updated about new books available in the market.</p>
 
+
+## Install the Dependencies
+
+To use this, first you need to make sure, Python 3 is installed in your system.
+To install Python 3 in your system you may checkout Python's official downloads [page](https://www.python.org/downloads/).
+
+## How to Run
+
+First thing you need to do is to clone the repository or download the source code. Run the following command in your terminal to clone the repository:
+```
+git clone https://github.com/IamBikramPurkait/Quadcode-Project-Innovision-2021
+```
+Next you have to install all the dependent modules which I have listed in ```requirements.txt``` file.
+To install the required modules simply run the following inside your terminal: 
+```
+pip install -r requirements.txt
+```
+Finally to run  this,  all you have to do is to run the ```main.py``` file as shown:
+```
+python main.py
+```
+and thats it.
+
+## Screenshot
+![image](screenshot/sample.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h2>Contributor</h2>
 
 [Sutanu Chakraborty](https://github.com/Sutanu19)</br>
