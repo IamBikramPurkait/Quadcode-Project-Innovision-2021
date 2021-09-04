@@ -15,11 +15,14 @@ file_name = ''
 finaltime = ''
 dt_stamp = ''
 newspaper_name = ''
-
+dwnlocbtn = None
+spin_box = None
+cal = None
+statuslbl = None
 
 def get_pageno(date, month, year, name):
     global newspaper_name
-
+    global spin_box
     r = requests.get(
         # f"https://epaper.anandabazar.com/calcutta/{year}-{month}-{date}/71/Page-1.html")
         # f"https://epaper.telegraphindia.com/calcutta/{year}-{month}-{date}/71/Page-1.html")
@@ -42,6 +45,7 @@ def get_paper():
     global file_name
     global finaltime
     global dt_stamp
+    global statuslbl
     # print(spin_box.get())
     name = get_word()
 
@@ -65,6 +69,7 @@ def get_paper():
 def select_date(name):
 
     global finaltime
+    global cal
     get_dat = str(cal.get_date()).split('-')
     final_date = get_dat[-1]
     final_month = get_dat[1]
@@ -82,8 +87,8 @@ def select_date(name):
 
 def select_location():
     global file_name
-    file_name = filedialog.askdirectory(
-        initialdir='Desktop', title='Select Directory')
+    global dwnlocbtn
+    file_name = filedialog.askdirectory(initialdir='Desktop', title='Select Directory')
     dwnlocbtn.configure(text=f'{file_name}')
 
 
@@ -92,8 +97,11 @@ def get_word():
 
 
 # Driver Code
-if __name__ == "__main__":
-
+def mainNewscode():
+    global dwnlocbtn
+    global spin_box
+    global cal
+    global statuslbl
     # create a instance root
     root = Tk()
     # Set Title, geometry
@@ -162,8 +170,7 @@ if __name__ == "__main__":
     # print(spin_box.get())
 
     # Create Choose Downlod Location Button
-    dwnlocbtn = ttk.Button(bodyfrm, text="Select Download Location",
-                           command=select_location, style="C.TButton")
+    dwnlocbtn = ttk.Button(bodyfrm, text="Select Download Location",command=select_location, style="C.TButton")
     dwnlocbtn.pack(pady=20)
 
     # Add Download Button
@@ -185,3 +192,5 @@ if __name__ == "__main__":
 
     # call the mainloop of the root instances
     root.mainloop()
+if __name__ == '__main__':
+    mainNewscode()

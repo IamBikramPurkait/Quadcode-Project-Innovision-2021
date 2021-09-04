@@ -20,3 +20,14 @@ Card number :RCC-9647
 User id :Ruddra
 Password :R@123
 ________________________________
+
+___________02/09/2021___________
+
+Name :Ishani Samanta
+Book name :DAA
+Author name :I.Samanta
+D.O.B :25/10/2000
+Card number :RCC-949845
+User id :Ishani
+Password :I@123
+________________________________
