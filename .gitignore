@@ -1,3 +1,4 @@
 *.pdf
 v/
 *.exe
+__pycache__/
