@@ -1,6 +1,6 @@
 <h1>QuadCode Project Innovision 2021</h1>
 
-> You can read our full Devpost from [here](https://devpost.com/software/library-management-system-8hux1y)
+> You can read our full Devpost  from [here](https://devpost.com/software/library-management-system-8hux1y)
 
 <h2>Inspiration</h2>
 <p>With growing technology and time and change being the only constant, even the education sector has become smart. From ebooks, online classes to online or virtual libraries, everything can be found just by a click ! Hence, SMART EDUCATION is the need of the hour ! </p>
